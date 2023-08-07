@@ -18,3 +18,17 @@ Newman is a command-line collection runner for Postman. It allows you to effortl
 ```bash
 $ npm install -g newman
 ```
+
+
+### newman-reporter-htmlextra
+
+
+A [Newman](https://github.com/postmanlabs/newman) HTML reporter that has been extended to include the separation of the iteration runs so these are no longer aggregated together and also some additional `handlebars helpers` to enable users to create better custom templates.
+
+This reporter comes with a dashboard style summary landing page and a set of different tabs which contain the detailed request information. There are also a few optional configuration flags available, to tailor the final report in a number of different ways.
+
+To `globally` install the `htmlextra` package:
+
+```
+npm install -g newman-reporter-htmlextra
+```
